@@ -26,3 +26,17 @@ $db = ConnexionBase(); // Connexion à la base de données
 // Vérifie si l'utilisateur est admin
 $isAdmin = isset($_SESSION['user_type']) && in_array($_SESSION['user_type'], ['Admin']);
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <img src="img\wazaa_logo.png" alt="Logo du site Wazaa Immo">
+        <p>Juste pour tester si ça fonctionne bien</p>
+    </header>
