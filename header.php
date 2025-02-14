@@ -38,5 +38,7 @@ $isAdmin = isset($_SESSION['user_type']) && in_array($_SESSION['user_type'], ['A
 <body>
     <header>
         <img src="img\wazaa_logo.png" alt="Logo du site Wazaa Immo">
-        <p>Juste pour tester si ça fonctionne bien</p>
+        <h2>Wazaa Immo, le foyer qu'il vous faut</h2>
+        <!-- <p>Juste pour tester si ça fonctionne bien</p>
+        <p>Yeepee!</p>  -->
     </header>
